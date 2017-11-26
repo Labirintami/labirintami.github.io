@@ -244,6 +244,12 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #fec503;
 }
+@media(max-width:768px) {
+    header .intro-text .i-text {
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+}
 
 @media(min-width:768px) {
     .navbar-default {
